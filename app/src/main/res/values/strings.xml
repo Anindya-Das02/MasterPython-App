@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Master Python</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Planets">
+        <item>Basic Syntax</item>
+        <item>Hello world</item>
+        <item>Variables Type</item>
+        <item>Lists</item>
+        <item>Tuples</item>
+        <item>Dictionary</item>
+        <item>if-else Statements</item>
+        <item>For Loops</item>
+        <item>While Loops</item>
+        <item>Functions</item>
+        <item>Class and Objects</item>
+    </string-array>
+    <string-array name="creators">
+        <item>Anindya Das \n Reg no.: RA1611003010103</item>
+        <item>Aparna Suresh \n Reg no.: RA1611003010163</item>
+        <item>Yash Srivastava \n Reg no.: RA1611003010259</item>
+    </string-array>
+
+    <string-array name="ExampleList">
+
+        <item>Area of Triangle</item>
+        <item>Positive or Negative</item>
+        <item>Greatest value among 3</item>
+        <item>Loops</item>
+        <item>Lists</item>
+        <item>Function</item>
+
+        <item>Classes and Objects</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hllo">sdfghjkl</string>
+    <string name="hello_world">If you are running new version of Python, then you would need to use print statement with parenthesis as in print ("Hello, Python!");. </string>
+    <string name="what_is_py">Python is a general purpose, dynamic, high level and interpreted programming language. It supports Object Oriented programming approach to develop applications. It is simple and easy to learn and provides lots of high-level data structures.\n\n
+
+Python is easy to learn yet powerful and versatile scripting language which makes it attractive for Application Development. \n\n
+        Python\'s syntax and dynamic typing with its interpreted nature, makes it an ideal language for scripting and rapid application development.\n\nWe don\'t need to use data types to declare variable because it is dynamically typed so we can write a=10 to assign an integer value in an integer variable.\n\n
+        Python makes the development and debugging fast because there is no compilation step included in python development and edit-test-debug cycle is very fast.\n
+    </string>
+    <string name="faq_qns1">What is Python really?</string>
+    <string name="fqa_qns1_ans">Python is an interpreted language. That means that, unlike languages like C and its variants, Python does not need to be compiled before it is run. Other interpreted languages include PHP and Ruby.</string>
+    <string name="faq_qns2">What are the rules for local and global variables in Python?</string>
+    <string name="faq_qns2_ams">In Python, variables that are only referenced inside a function are implicitly global. If a variable is assigned a value anywhere within the function\’s body, it\’s assumed to be a local unless explicitly declared as global.</string>
+    <string name="faq_qns3">What is the difference between arguments and parameters?</string>
+    <string name="faq_q3_ans">Parameters are defined by the names that appear in a function definition, whereas arguments are the values actually passed to a function when calling it. Parameters define what types of arguments a function can accept.  </string>
+    <string name="fqa_q4">How do I specify hexadecimal and octal integers? </string>
+    <string name="faq_q4_ans">To specify an octal digit, precede the octal value with a zero, and then a lower or uppercase \“o\”. For example, to set the variable \“a\” to the octal value \“10\” (8 in decimal)\n \nHexadecimal is just as easy. Simply precede the hexadecimal number with a zero, and then a lower or uppercase \“x\”. Hexadecimal digits can be specified in lower or uppercase. </string>
+
+    <string name="var_top1"> Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.\n\n
+
+Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals or characters in these variables. </string>
+    <string name="var_top2"> Python variables do not need explicit declaration to reserve memory space. The declaration happens automatically when you assign a value to a variable. The equal sign (=) is used to assign values to variables.\n\n
+The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable. </string>
+    <string name="var_top3"> The data stored in memory can be of many types. For example, a person\'s age is stored as a numeric value and his or her address is stored as alphanumeric characters. Python has various standard data types that are used to define the operations possible on them and the storage method for each of them. \n\n Python has five standard data types- </string>
+    <string-array name="var_top_list">
+        <item>Numbers </item>
+        <item>String</item>
+        <item>List</item>
+        <item>Tuple</item>
+        <item>Dictionary </item>
+    </string-array>
+    <string-array name="refs_list">
+        <item>Tutorials Point:\n https://www.tutorialspoint.com/python/index.htm</item>
+    </string-array>
+
+    <string name="python_offers_a_range_of_compound_datatypes_often_referred_to_as_sequences_list_is_one_of_the_most_frequently_used_and_very_versatile_datatype_used_in_python_in_python_programming_a_list_is_created_by_placing_all_the_items_elements_inside_a_square_bracket_separated_by_commas_it_can_have_any_number_of_items_and_they_may_be_of_different_types_integer_float_string_etc">Python offers a range of compound datatypes often referred to as sequences. List is one of the most frequently used and very versatile datatype used in Python.In Python programming, a list is created by placing all the items (elements) inside a square bracket [ ], separated by commas. It can have any number of items and they may be of different types (integer, float, string etc.).</string>
+    <string name="in_python_programming_a_tuple_is_similar_to_a_list_the_difference_between_the_two_is_that_we_cannot_change_the_elements_of_a_tuple_once_it_is_assigned_whereas_in_a_list_elements_can_be_changed_a_tuple_is_created_by_placing_all_the_items_elements_inside_a_parentheses_separated_by_comma_the_parentheses_are_optional_but_is_a_good_practice_to_write_it_a_tuple_can_have_any_number_of_items_and_they_may_be_of_different_types_integer_float_list_string_etc">In Python programming, a tuple is similar to a list. The difference between the two is that we cannot change the elements of a tuple once it is assigned whereas in a list, elements can be changed.A tuple is created by placing all the items (elements) inside a parentheses (), separated by comma. The parentheses are optional but is a good practice to write it. A tuple can have any number of items and they may be of different types (integer, float, list, string etc.).</string>
+
+    <string name="dictionart_text">The term \"dictionary\" in Python refers to a built-in data structure (class for objects which contain key/value mappings to other objects). Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces.\n\nKeys are unique within a dictionary while values may not be. The values of a dictionary can be of any type, but the keys must be of an immutable data type such as strings, numbers, or tuples.</string>
+    <string name="function_text">A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.\n\n
+        As you already know, Python gives you many built-in functions like print(), etc. but you can also create your own functions. These functions are called user-defined functions.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Loops_text">In general, statements are executed sequentially − The first statement in a function is executed first, followed by the second, and so on. There may be a situation when you need to execute a block of code several number of times.\n\nProgramming languages provide various control structures that allow more complicated execution paths.\n\nA loop statement allows us to execute a statement or group of statements multiple times. The following diagram illustrates a loop statement −</string>
+    <string name="loop_text1">The for statement in Python has the ability to iterate over the items of any sequence, such as a list or a string. \n\nfor iterating_var in sequence:\n\n   statements(s)\n\nIf a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is assigned to the iterating variable iterating_var. Next, the statements block is executed. Each item in the list is assigned to iterating_var, and the statement(s) block is executed until the entire sequence is exhausted.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="while_text">A while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.\n\nThe syntax of a while loop in Python programming language is −\n\n while expression:\n\n   statement(s)\n\nHere, statement(s) may be a single statement or a block of statements with uniform indent. The condition may be any expression, and true is any non-zero value. The loop iterates while the condition is true.\n\nWhen the condition becomes false, program control passes to the line immediately following the loop.In Python, all the statements indented by the same number of character spaces after a programming construct are considered to be part of a single block of code. Python uses indentation as its method of grouping statements.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="con_text">The IF statement is similar to that of other languages. The if statement contains a logical expression using which the data is compared and a decision is made based on the result of the comparison.\n\nif expression:\n\n   statement(s)\n\nIf the boolean expression evaluates to TRUE, then the block of statement(s) inside the if statement is executed. In Python, statements in a block are uniformly indented after the : symbol. If boolean expression evaluates to FALSE, then the first set of code after the end of block is executed.</string>
+    <string name="con_text1">An else statement can be combined with an if statement. An else statement contains a block of code that executes if the conditional expression in the if statement resolves to 0 or a FALSE value.\n\nThe else statement is an optional statement and there could be at the most only one else statement following if.\n\nThe syntax of the if...else statement is −\n\nif expression:\n\n   statement(s)\n\n\nelse:\n\n   statement(s)</string>
+    <string name="con_text2">The elif statement allows you to check multiple expressions for TRUE and execute a block of code as soon as one of the conditions evaluates to TRUE.\n\nSimilar to the else, the elif statement is optional. However, unlike else, for which there can be at the most one statement, there can be an arbitrary number of elif statements following an if.\n\nSyntax\n\nif expression1:\n\n   statement(s)\n\nelif expression2:\n\n   statement(s)\n\nelif expression3:\n\n   statement(s)\n\nelse:\n\n   statement(s)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="class_text">Class − A user-defined prototype for an object that defines a set of attributes that characterize any object of the class. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.\n\nClass variable − A variable that is shared by all instances of a class. Class variables are defined within a class but outside any of the class's methods. Class variables are not used as frequently as instance variables are.\n\nData member − A class variable or instance variable that holds data associated with a class and its objects.The class statement creates a new class definition. The name of the class immediately follows the keyword class followed by a colon as follows −\n\nclass ClassName:\n    'Optional class documentation string'\n    class_suite</string>
+    <string name="obj_text">Instance variable − A variable that is defined inside a method and belongs only to the current instance of a class.\n\nInstance − An individual object of a certain class. An object obj that belongs to a class Circle, for example, is an instance of the class Circle.\n\nObject − A unique instance of a data structure that's defined by its class. An object comprises both data members (class variables and instance variables) and methods.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tuples_text">A Tuple is a collection of Python objects separated by commas. In someways a tuple is similar to a list in terms of indexing, nested objects and repetition but a tuple is immutable unlike lists which are mutable.</string>
+
+
+    <string name="syntax_top1">The Python language has many similarities to Perl, C, and Java. However, there are some definite differences between the languages. To print a statement we use \"print()\".  </string>
+    <string name="syntax_top2">Python provides no braces to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.\n\n The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount.</string>
+    <string name="syntax_top3">A hash sign (#) that is not inside a string literal begins a comment. All characters after the # and up to the end of the physical line are part of the comment and the Python interpreter ignores them. </string>
+
+
+</resources>

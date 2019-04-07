@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:textSize="35sp"
+        android:textColor="@color/red"
+        android:text="Tuples"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="369dp"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/textView"
+        android:textColor="@color/black"
+        android:layout_marginTop="114dp"
+        android:text="@string/tuples_text"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btn_tuples_prev"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="34dp"
+        android:background="#9ACD32"
+        android:text="previous"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_tuples_next"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/btn_tuples_prev"
+        android:layout_alignBottom="@+id/btn_tuples_prev"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:background="#9ACD32"
+        android:text="next"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+</RelativeLayout>

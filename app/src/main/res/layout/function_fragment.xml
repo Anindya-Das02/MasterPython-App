@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="59dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Functions"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:textSize="35sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/function_text"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_fun_prev"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:background="@color/light_green"
+                android:textColor="@color/white"
+                android:text="Previous"
+                android:textStyle="bold"
+                android:layout_margin="15dp"/>
+
+            <Button
+                android:id="@+id/btn_fun_next"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:background="@color/light_green"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:layout_margin="15dp"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="59dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conditional Statements"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:textSize="35dp"
+                />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:text="@string/con_text"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/if_statement"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="35dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/con_text1"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:layout_margin="15dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/if_else_statement"
+            android:scaleType="centerInside"
+            android:layout_margin="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/con_text2"
+            android:textColor="@color/black"
+            android:textSize="21sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn_cond_prev"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:background="@color/light_green"
+                android:text="Previous"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="15dp"/>
+
+            <Button
+                android:id="@+id/btn_cond_next"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/light_green"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_margin="15dp" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

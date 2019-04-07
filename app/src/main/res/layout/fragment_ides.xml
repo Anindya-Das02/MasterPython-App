@@ -1,0 +1,42 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:layout_marginTop="60dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ide_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WHAT IS PYTHON"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/red"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_of_ide"
+            android:text="@string/what_is_py"
+            android:layout_below="@+id/ide_heading"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

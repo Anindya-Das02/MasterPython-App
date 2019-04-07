@@ -1,0 +1,89 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="75dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/btn_ide"
+            android:textSize="33dp"
+            android:text="python?"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/btn_ide"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:textStyle="bold"
+            android:text="Concepts"
+            android:id="@+id/btn_concepts"
+            />
+        <Button
+            android:id="@+id/btn_faqs"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btn_ide"
+            android:textStyle="bold"
+            android:text="Faqs"
+            android:background="@color/purple"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn_example"
+            android:layout_below="@+id/btn_concepts"
+            android:layout_toRightOf="@id/btn_faqs"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Examples"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btn_faqs"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="References"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/btn_refs"
+            android:textSize="23dp"
+            android:background="@color/tomato_red"/>
+
+        <Button
+            android:id="@+id/btn_aboutus"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btn_example"
+            android:layout_toRightOf="@id/btn_refs"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/light_green"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="About us"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
